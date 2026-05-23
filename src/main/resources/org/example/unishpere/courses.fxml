@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../img/To-Let.png" />
+            </image>
+        </ImageView>
+        <AnchorPane layoutY="105.0" prefHeight="977.0" prefWidth="1919.0" style="-fx-background-color: #fffbe7;">
+            <children>
+                <VBox layoutX="336.0" layoutY="190.0" prefHeight="683.0" prefWidth="1209.0" style="-fx-background-color: #f7f2c3; -fx-background-radius: 50;">
+                    <children>
+                        <TextField alignment="CENTER" prefHeight="73.0" prefWidth="669.0" promptText="Search Course" style="-fx-background-radius: 50;">
+                            <VBox.margin>
+                                <Insets left="215.0" right="240.0" top="40.0" />
+                            </VBox.margin>
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                        </TextField>
+                        <Label fx:id="cn" alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#goToCourseInnerPageCN" prefHeight="152.0" prefWidth="779.0" style="-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #94bbe9, #27e7e9); -fx-background-radius: 50;" text="Computer Networks" textAlignment="CENTER" wrapText="true">
+                            <VBox.margin>
+                                <Insets left="210.0" top="70.0" />
+                            </VBox.margin>
+                            <font>
+                                <Font name="Georgia Bold" size="47.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="soc" alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#goToCourseInnerPageSOC" prefHeight="152.0" prefWidth="779.0" style="-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #eeaeca, #8070c9); -fx-background-radius: 50;" text="Society, Environment and Computing Ethics" textAlignment="CENTER" wrapText="true">
+                            <font>
+                                <Font name="Georgia Bold" size="42.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets left="210.0" top="20.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="152.0" prefWidth="779.0" style="-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #daf50e, #8adbe7); -fx-background-radius: 50;" text="Microprocessors and Microcontrollers" textAlignment="CENTER" wrapText="true">
+                            <font>
+                                <Font name="Georgia Bold" size="43.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets bottom="20.0" left="210.0" top="20.0" />
+                            </VBox.margin>
+                        </Label>
+                    </children>
+                </VBox>
+                <Label alignment="CENTER" layoutX="531.0" layoutY="39.0" prefHeight="113.0" prefWidth="699.0" text="Courses">
+                    <font>
+                        <Font name="Georgia Bold" size="81.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+      <Circle fx:id="profile" fill="DODGERBLUE" layoutX="1614.0" layoutY="53.0" onMouseClicked="#openProfilePopup" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="home" layoutX="1028.0" layoutY="36.0" mnemonicParsing="false" onAction="#goToHomePage" prefHeight="39.0" prefWidth="66.0" style="-fx-background-color: 0;" />
+      <Button layoutX="24.0" layoutY="33.0" mnemonicParsing="false" onAction="#goBack" prefHeight="41.0" prefWidth="82.0" style="-fx-background-color: 0;" />
+      <ImageView fitHeight="70.0" fitWidth="82.0" layoutX="24.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/goBack.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

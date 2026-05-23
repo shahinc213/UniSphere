@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.unishpere.homeController">
+   <children>
+      <ImageView fitHeight="1019.0" fitWidth="1920.0" onDragDetected="#goToServicePage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/HomeNew.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1310.0" layoutY="36.0" mnemonicParsing="false" onAction="#goToServicePage" prefHeight="39.0" prefWidth="80.0" style="-fx-background-color: 0;" />
+      <Circle fx:id="profile" fill="DODGERBLUE" layoutX="1617.0" layoutY="56.0" onMouseClicked="#openProfilePopup" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="1154.0" layoutY="36.0" mnemonicParsing="false" onAction="#goToMessagePage" prefHeight="39.0" prefWidth="95.0" style="-fx-background-color: 0;" />
+   </children>
+</AnchorPane>

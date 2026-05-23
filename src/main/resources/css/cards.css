@@ -1,0 +1,148 @@
+.request-card {
+    -fx-background-color: linear-gradient(to bottom right, #ffffff, #f0f9f4);
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, rgba(52,168,83,0.15), 10, 0, 0, 0);
+    -fx-border-color: #34a853;
+    -fx-border-radius: 20;
+    -fx-border-width: 1px;
+    -fx-padding: 15px;
+}
+
+.request-card:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 15, 0, 0, 0);
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+    -fx-cursor: hand;
+    -fx-border-color: #2ecc71;
+}
+
+.message-button {
+    -fx-background-color: #f1c40f;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-transition: all 0.2s ease;
+    -fx-padding: 10px 20px;
+}
+
+.message-button:hover {
+    -fx-background-color: #f39c12;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 0);
+    -fx-cursor: hand;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.accept-button {
+    -fx-background-color: #2ecc71;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-transition: all 0.2s ease;
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 0);
+}
+
+.accept-button:hover {
+    -fx-background-color: #27ae60;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 8, 0, 0, 0);
+    -fx-cursor: hand;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.card-label {
+    -fx-text-fill: #34495e;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 0;
+}
+
+.card-title {
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-font-size: 20px;
+    -fx-padding: 10px 0;
+}
+
+.course-label, .topic-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #1a73e8;
+    -fx-font-size: 16px;
+    -fx-padding: 5px 0;
+}
+
+.description-label {
+    -fx-text-fill: #5f6368;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 0;
+    -fx-wrap-text: true;
+}
+
+.accepted-message {
+    -fx-text-fill: #34a853;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 0;
+    -fx-background-color: rgba(52,168,83,0.1);
+    -fx-background-radius: 10;
+    -fx-padding: 8px 15px;
+    -fx-alignment: center;
+}
+
+.accepted-card {
+    -fx-background-color: linear-gradient(to bottom right, #ffffff, #f0f9f4);
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, rgba(52,168,83,0.15), 10, 0, 0, 0);
+    -fx-border-color: #34a853;
+    -fx-border-radius: 20;
+    -fx-border-width: 1px;
+    -fx-padding: 15px;
+}
+
+.accepted-card:hover {
+    -fx-effect: dropshadow(gaussian, rgba(52,168,83,0.25), 15, 0, 0, 0);
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+    -fx-cursor: hand;
+    -fx-background-color: linear-gradient(to bottom right, #ffffff, #e6f4ea);
+}
+
+.status-label {
+    -fx-font-weight: bold;
+}
+
+.status-accepted {
+    -fx-text-fill: #2ecc71;
+}
+
+.status-pending {
+    -fx-text-fill: #3498db;
+}
+
+.chat-user-card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+    -fx-padding: 10;
+    -fx-cursor: hand;
+}
+
+.chat-user-card:hover {
+    -fx-background-color: #f8f9fa;
+}
+
+.chat-user-name {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.message-button {
+    -fx-background-color: #0084ff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+}
+
+.message-button:hover {
+    -fx-background-color: #0073e6;
+}
