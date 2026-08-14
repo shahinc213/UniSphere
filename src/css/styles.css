@@ -1,0 +1,113 @@
+/* Styling the ScrollPane */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-padding: 10;
+    -fx-border-color: #dcdcdc;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+}
+
+/* Styling the VBox containing rows */
+.posts-container {
+    -fx-padding: 20;
+    -fx-spacing: 20;
+    -fx-background-color: #f9f9f9;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 5);
+}
+
+/* Styling the HBox for rows */
+.row-container {
+    -fx-spacing: 20;
+    -fx-alignment: center;
+}
+
+/* Styling individual posts */
+.post-container {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+    -fx-border-color: #dedede;
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 10, 0, 0, 5);
+    -fx-padding: 15;
+    -fx-min-width: 400; /* Width of each post */
+    -fx-min-height: 250; /* Height of each post */
+}
+
+/* Styling post labels */
+.post-label {
+    -fx-font-family: "Arial";
+    -fx-font-size: 16;
+    -fx-text-fill: #333333;
+    -fx-wrap-text: true;
+}
+
+/* General button styling */
+.button {
+    -fx-background-color: linear-gradient(to right, #4CAF50, #45a049); /* Gradient background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 16px; /* Font size */
+    -fx-background-radius: 10px; /* Rounded corners */
+    -fx-padding: 10 20; /* Padding */
+    -fx-border-radius: 10px; /* Rounded border */
+    -fx-border-color: transparent; /* No border */
+    -fx-cursor: hand; /* Pointer cursor */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0, 0, 1); /* Shadow effect */
+    -fx-font-family: "Arial", sans-serif; /* Font family */
+    -fx-transition: all 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    -fx-background-color: linear-gradient(to right, #45a049, #4CAF50); /* Reverse gradient */
+    -fx-text-fill: white; /* Ensure text remains white */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.35), 8, 0, 0, 2); /* Stronger shadow */
+}
+
+/* Pressed effect for buttons */
+.button:pressed {
+    -fx-background-color: #388E3C; /* Darker shade on press */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 3, 0, 0, 1); /* Subtle shadow */
+}
+
+
+/* Images in the post */
+.post-image {
+    -fx-background-color: #f3f3f3;
+    -fx-border-color: #dedede;
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0, 0, 2);
+}
+
+/* Hover effect for posts */
+.post-container:hover {
+    -fx-background-color: #f4faff;
+    -fx-border-color: #5c9eff;
+    -fx-effect: dropshadow(gaussian, rgba(92, 158, 255, 0.3), 15, 0, 0, 5);
+}
+
+/* profile.css */
+
+/* Style for round ImageView */
+.round-image {
+    -fx-background-color: transparent;
+    -fx-background-radius: 50%;
+    -fx-clip-shape: "circle"; /* Clip the image into a circle */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 0); /* Optional shadow effect */
+}
+
+/* Label styles */
+.label-style {
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding: 5px 10px;
+    -fx-background-color: #f4f4f4;
+    -fx-background-radius: 10px;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0, 1, 1);
+}
